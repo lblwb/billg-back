@@ -1,0 +1,38 @@
+<div class="BodyNavbar">
+    <div class="BodyNavbarWrapper">
+        <div class="BodyNavbarRow">
+            <!-- TODO: HTML / NAVBAR - Тут скоро что-то будет! -->
+        </div>
+        <div class="BodyNavbarRow">
+            <div class="BodyNavbarUserAccount">
+                <div class="BodyNavbarUserAccountWrapper" style="display: flex;align-items: center">
+                    <div class="BodyNavbarUserProfile" style="margin-right: 24px">
+                        <div class="BodyNavbarUserProfileBtn"
+                             style="border-radius: 20px;background: #F9F8F8; padding: 12px 26px;">
+                            <div class="BodyNavbarUserProfileHeading">
+                                <div class="BodyNavbarUserProfileHeadingTitle" style="color: #093A2C;
+font-family: 'Inter',sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;">
+                                    {{getLoc(c,"username")}} - {{getLoc(c,"balance")}} руб.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="BodyNavbarUserLogout">
+                        <div class="BodyNavbarUserLogoutBtn">
+                            <button style="background: transparent; border: none;">
+                        <span class="BodyNavbarUserLogoutBtnIcon">
+                            <img src="/assets/images/icon/logout.svg">
+                        </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

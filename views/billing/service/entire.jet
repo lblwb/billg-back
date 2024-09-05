@@ -1,0 +1,13 @@
+<div class="entireService">
+    <div class="entireServiceWrapper">
+        <div class="entireServiceList">
+        {{dump(ServiceList)}}
+{*            *{range .ServiceList}***}
+{*            <div class="entireServiceListItem">*}
+{*                *{.FullName}***}
+{*                *{.DeviceSlug}***}
+{*            </div>*}
+{*            *{end}***}
+        </div>
+    </div>
+</div>

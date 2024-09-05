@@ -1,0 +1,13 @@
+{
+  "watch": [
+    "app",
+    "cmd",
+    "public",
+    "views",
+    ".env"
+  ],
+  "delay": 1200,
+  "ext": "jet,js,css,go,svg",
+  "exec": "go run cmd/http/main.go",
+  "signal": "SIGINT"
+}

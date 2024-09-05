@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Retry Host | {{Title}}</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="shortcut icon" href="/assets/images/favicon.svg" type="image/x-icon">
+</head>
+<body>
+
+<div class="container">
+    <div class="Sidebar">
+        <div class="SidebarWrapper">
+            <div class="SidebarLogo">
+                <div class="SidebarLogoWrapper">
+                    <a href="/dash">
+                        <img src="/assets/images/logo.svg" alt="Retry Host">
+                    </a>
+                </div>
+            </div>
+            <div class="SidebarNavbar">
+                <div class="SidebarNavbarHeading">
+                    <div class="SidebarNavbarHeadingTitle">
+                        Услуги
+                    </div>
+                </div>
+                <div class="SidebarNavbarWrapper">
+{*                {{ range services}}*}
+
+
+{*              {{getLoc(c,"services")}}*}
+
+                {{ range getLoc(c,"services") }}
+                         <div class="SidebarNavbarItem">
+                          <a href="/service/{{.Slug}}" class="SidebarNavbarItemLink">
+                            <div class="SidebarNavbarItemLinkHeading">
+                                <div class="SidebarNavbarItemLinkHeadingTitle">
+                                    {{.FullName}}
+                                </div>
+                            </div>
+                           </a>
+                        </div>
+                {{ end }}
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="Body">
+        <div class="bodyHeader">
+            {{include "/billing/component/navbar"}}
+        </div>
+        <div class="BodyContext">
+            {{ embed() }}
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>

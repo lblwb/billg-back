@@ -1,0 +1,92 @@
+<div class="containerAndSidebar">
+    <div class="containerWrapper" style="width: 100%;display: flex;box-sizing: border-box;flex: 1;margin-right: 32px;">
+       <div class="containerContext" style="width: 100%;">
+              <!-- alert -->
+               <div class="bannerServiceCard bannerServiceCardMid" style="">
+                   <div class="bannerServiceCardWrapper bannerServiceCardWrapperMid">
+                       <div class="bannerServiceCardHeading">
+                           <div class="bannerServiceCardHeadingTitle">
+                               Создание услуги — {{serviceDevice}}
+                           </div>
+                           <div class="bannerServiceCardHeadingDesc">
+                               Выберите необходимую конфигурацию вашего сервера
+                           </div>
+                       </div>
+                   </div>
+               </div>
+                  <div class="bannerServiceCard bannerServiceCardMid" style="">
+                        {*  Params *}
+                        {{service}}
+                        </div>
+            </div>
+    </div>
+    <div class="fluidCartRightFixed">
+        <div class="fluidCartRightFixedBlock">
+            <div class="fluidCartHeading">
+                <div class="fluidCartHeadingTitle">
+                    Итог
+                </div>
+                <div class="fluidCartHeadingLine">
+                    <svg width="297" height="2" viewBox="0 0 297 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 1H297" stroke="#AAF9E1"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="fluidCartParams">
+                <div class="fluidCartParamsItem">
+                    <div class="fluidCartParamsItemColumn">
+                        <div class="fluidCartParamsItemColumnRow">
+                            <div class="fluidCartParamsItemHeading">
+                                <div class="fluidCartParamsItemHeadingTitle">
+                                    ОС –
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fluidCartParamsItemColumnRow">
+                            <div class="fluidCartParamsItemValue">
+                                <div class="fluidCartParamsItemValueTitle">
+                                    Debian 10
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--     -->
+                <div class="fluidCartParamsItem">
+                    <div class="fluidCartParamsItemColumn">
+                        <div class="fluidCartParamsItemColumnRow">
+                            <div class="fluidCartParamsItemHeading">
+                                <div class="fluidCartParamsItemHeadingTitle">
+                                    Локация –
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fluidCartParamsItemColumnRow">
+                            <div class="fluidCartParamsItemValue">
+                                <div class="fluidCartParamsItemValueTitle">
+                                    МСК
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fluidCartBuy">
+            <button class="fluidCartBuyBtn">
+                    <span class="fluidCartBuyBtnWrapper">
+                        <span class="fluidCartBuyBtnTitle">
+                            Заказать -
+                        </span>
+                        <span class="fluidCartBuyBtnTitle">
+                            220 ₽
+                        </span>
+                    </span>
+            </button>
+        </div>
+    </div>
+
+</div>

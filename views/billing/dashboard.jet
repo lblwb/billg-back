@@ -1,0 +1,39 @@
+<div class="containerWrapper">
+    <!-- alert -->
+{*    <div class="bannerServiceCard" style="">*}
+{*        <div class="bannerServiceCardWrapper">*}
+{*            <div class="bannerServiceCardHeading">*}
+{*                <div class="bannerServiceCardHeadingDesc">*}
+{*                    Новые сервера уже доступны к заказу!*}
+{*                </div>*}
+{*            </div>*}
+{*        </div>*}
+{*    </div>*}
+{*    <div class="bannerServiceCard" style="">*}
+{*        <div class="bannerServiceCardWrapper">*}
+{*            <div class="bannerServiceCardHeading">*}
+{*                <div class="bannerServiceCardHeadingDesc">*}
+{*                    AlertService*}
+{*                </div>*}
+{*            </div>*}
+{*        </div>*}
+{*    </div>*}
+{*    <div class="bannerServiceCard" style="">*}
+{*        <div class="bannerServiceCardWrapper">*}
+{*            <div class="bannerServiceCardHeading">*}
+{*                <div class="bannerServiceCardHeadingDesc">*}
+{*                    AlertService*}
+{*                </div>*}
+{*            </div>*}
+{*        </div>*}
+{*    </div>*}
+{*    <div class="bannerServiceCard" style="">*}
+{*        <div class="bannerServiceCardWrapper">*}
+{*            <div class="bannerServiceCardHeading">*}
+{*                <div class="bannerServiceCardHeadingDesc">*}
+{*                    AlertService*}
+{*                </div>*}
+{*            </div>*}
+{*        </div>*}
+{*    </div>*}
+</div>
